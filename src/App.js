@@ -1,14 +1,17 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Flashcards from "./Flashcards";
+import vocabularyData from "./vocabulary.json";
 
 function App() {
-  useEffect(() => {}, []);
+  const [vocabulary, setVocabulary] = useState([]);
 
-  const vocabulary = [
-    { word: "Aaaa", definition: "Aa aa aa" },
-    { word: "Bbbb", definition: "Bb bb bb" },
-    { word: "Cccc", definition: "Cc cc cc" },
-  ];
+  useEffect(() => {
+    setVocabulary([
+      { word: "Aaaa", definition: "Aa aa aa" },
+      { word: "Bbbb", definition: "Bb bb bb" },
+      { word: "Cccc", definition: "Cc cc cc" },
+    ]);
+  }, []);
 
   return (
     <div>
