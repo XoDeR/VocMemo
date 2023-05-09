@@ -3,6 +3,7 @@ import Flashcard from "./Flashcard";
 
 const Flashcards = ({ vocabulary }) => {
   const [learnedWords, setLearnedWords] = useState([]);
+  const [shuffledVocabulary, setShuffledVocabulary] = useState([]);
 
   useEffect(() => {
     const storedLearnedWords = localStorage.getItem("learnedWords");
@@ -10,6 +11,10 @@ const Flashcards = ({ vocabulary }) => {
       setLearnedWords(JSON.parse(storedLearnedWords));
     }
   }, []);
+
+  useEffect(() => {
+    setShuffledVocabulary(shuffleArray(vocabulary));
+  }, [vocabulary]);
 
   const handleLearnWord = (word) => {
     const newLearnedWords = [...learnedWords, word];
@@ -19,7 +24,7 @@ const Flashcards = ({ vocabulary }) => {
 
   return (
     <div>
-      {vocabulary.map((item) => (
+      {shuffledVocabulary.map((item) => (
         <Flashcard
           key={item.word}
           word={item.word}
@@ -30,6 +35,15 @@ const Flashcards = ({ vocabulary }) => {
       ))}
     </div>
   );
+};
+
+const shuffleArray = (array) => {
+  const shuffledArray = [...array];
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+  return shuffledArray;
 };
 
 export default Flashcards;
