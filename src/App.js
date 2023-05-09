@@ -6,11 +6,25 @@ function App() {
   const [vocabulary, setVocabulary] = useState([]);
 
   useEffect(() => {
-    setVocabulary([
-      { word: "Aaaa", definition: "Aa aa aa" },
-      { word: "Bbbb", definition: "Bb bb bb" },
-      { word: "Cccc", definition: "Cc cc cc" },
-    ]);
+    let tempVocabulary = [];
+    for (const [key, value] of Object.entries(vocabularyData)) {
+      let definition = "";
+      if (Array.isArray(value)) {
+        definition = value.join(", ");
+      } else {
+        definition = value;
+      }
+
+      tempVocabulary.push({ word: key, definition: definition });
+    }
+    console.log(tempVocabulary);
+
+    setVocabulary(tempVocabulary);
+    // setVocabulary([
+    //   { word: "Aaaa", definition: "Aa aa aa" },
+    //   { word: "Bbbb", definition: "Bb bb bb" },
+    //   { word: "Cccc", definition: "Cc cc cc" },
+    // ]);
   }, []);
 
   return (
