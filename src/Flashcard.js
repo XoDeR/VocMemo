@@ -9,12 +9,18 @@ const Flashcard = ({ word, definition, learned, onLearn }) => {
   };
 
   return (
-    <div className="flashcard" onClick={handleClick}>
+    <div
+      className="flashcard"
+      onClick={handleClick}
+      style={{ display: "flex" }}
+    >
       {showDefinition ? definition : word}
       {learned ? (
-        <div>Learned!</div>
+        <div style={{ marginLeft: "auto" }}>Learned!</div>
       ) : (
-        <button onClick={onLearn}>Learned</button>
+        <button onClick={onLearn} style={{ marginLeft: "auto" }}>
+          Learned
+        </button>
       )}
     </div>
   );
