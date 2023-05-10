@@ -27,8 +27,29 @@ function App() {
     // ]);
   }, []);
 
+  const handleSaveProgress = () => {
+    const learnedWords = localStorage.getItem("learnedWords");
+    const blob = new Blob([learnedWords], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "learnedWords.json";
+    link.click();
+  };
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+    reader.onload = () => {
+      localStorage.setItem("learnedWords", reader.result);
+    };
+    reader.readAsText(file);
+  };
+
   return (
     <div>
+      <button onClick={handleSaveProgress}>Save Progress</button>
+      <input type="file" onChange={handleFileChange} />
       <header>Vocabulary memorization</header>
       <Flashcards vocabulary={vocabulary} />
     </div>
