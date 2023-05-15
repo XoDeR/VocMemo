@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Het huis",
+    "task": [
+      "U gaat verhuizen. Schrijf een e-mail naar uw moeder",
+      "Schrijf een e-mail naar uw moeder.",
+      "U schrijft haar naar welke stad u gaat verhuizen en wanneer u gaat verhuizen.",
+      "Schrijf ook waaroom u gaat verhuizen."
+    ],
+    "texts": [
+      [
+        "Lieve mama,",
+        "Ik heb nieuws voor je. Ik ga verhuizen! Ik verhuis naar Amsterdam en ik ga volgende maand verhuizen.",
+        "De reden dat ik ga verhuizen is omdat ik een nieuwe baan heb gevonden in Amsterdam.",
+        "Ik ben erg enthousiast over deze nieuwe kans en ik kijk ernaar uit om in deze mooie stad te wonen.",
+        "Ik hoop dat je snel langs kunt komen om mijn nieuwe huis te zien.",
+        "Liefs, (Je naam)"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De school",
+    "task": [
+      "U was vandaag bij een taalschool voor een intakegesprek. U wilt beter Nederlands leren.",
+      "U kunt op die school naar de les.",
+      "De lessen zijn in de ochtend.",
+      "Maar u hebt geen kinderopvang en ook het vervoer naar de school is een probleem.",
+      "U moet een oplossing voor deze twee dingen hebben.",
+      "De school wil weten welke oplossing u hebt gevonden voor uw probleem.",
+      "Schrijf aan de school welke oplossingen u hebt."
+    ],
+    "texts": [[], []]
+  },
+  {
+    "title": "De familie",
+    "task": [
+      "Uw zus woont in Duitsland,",
+      "U wilt graag volgende week bij haar op bezoek gaan.",
+      "U wilt dan een paar dagen bij haar logeren.",
+      "Schrijf haar op welke dag u wilt komen.",
+      "Vraag haar of dat kan.",
+      "Vraag haar ook of u speciale dingen moet meenemen."
+    ],
+    "texts": [[], []]
+  },
+  {
+    "title": "De agenda",
+    "task": [
+      "Uw vriend wil met u een afspraak maken.",
+      "U hebt hem lange tujd niet gezien.",
+      "U vragt uw vriend hoe het met hem gaat.",
+      "U gaat hem een voorstel doen.",
+      "U gaat een datum en een tijd noemen.",
+      "Misschien gaat u met hem eten in een restaurant, of u gaat samen naar een terras.",
+      "Of misschien gaat u samen wandelen."
+    ]
+  }
+]

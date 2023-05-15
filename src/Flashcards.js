@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Flashcard from "./Flashcard";
 
 const Flashcards = ({ vocabulary }) => {
+  const [filteredVocabulary, setFilteredVocabulary] = useState([]);
   const [learnedWords, setLearnedWords] = useState([]);
   const [shuffledVocabulary, setShuffledVocabulary] = useState([]);
   const [quizMode, setQuizMode] = useState(false);
@@ -9,22 +10,38 @@ const Flashcards = ({ vocabulary }) => {
   const [choices, setChoices] = useState([]);
   const [score, setScore] = useState(0);
 
-  useEffect(() => {
-    const storedLearnedWords = localStorage.getItem("learnedWords");
-    if (storedLearnedWords) {
-      setLearnedWords(JSON.parse(storedLearnedWords));
-    }
-  }, []);
+  const wordsInQuiz = 10;
+  const filterOutLearnedWords = true;
 
   useEffect(() => {
-    setShuffledVocabulary(shuffleArray(vocabulary));
+    const storedLearnedWords = localStorage.getItem("learnedWords");
+
+    if (storedLearnedWords) {
+      const savedLearnedWords = JSON.parse(storedLearnedWords);
+      setLearnedWords(savedLearnedWords);
+
+      if (filterOutLearnedWords) {
+        const setToFilterOut = new Set(savedLearnedWords);
+        setFilteredVocabulary(
+          vocabulary.filter((obj) => !setToFilterOut.has(obj.word))
+        );
+      } else {
+        setFilteredVocabulary(vocabulary);
+      }
+    } else {
+      setFilteredVocabulary(vocabulary);
+    }
   }, [vocabulary]);
+
+  useEffect(() => {
+    setShuffledVocabulary(shuffleArray(filteredVocabulary));
+  }, [vocabulary, filteredVocabulary]);
 
   useEffect(() => {
     if (quizMode) {
       const correctWord = shuffledVocabulary[currentWordIndex];
       const incorrectWords = shuffleArray(
-        vocabulary.filter((item) => item.word !== correctWord.word)
+        filteredVocabulary.filter((item) => item.word !== correctWord.word)
       ).slice(0, 3);
       setChoices(shuffleArray([correctWord, ...incorrectWords]));
     }
@@ -33,6 +50,7 @@ const Flashcards = ({ vocabulary }) => {
   const handleLearnWord = (word) => {
     const newLearnedWords = [...learnedWords, word];
     setLearnedWords(newLearnedWords);
+    console.log("Learned words: ", newLearnedWords.length);
     localStorage.setItem("learnedWords", JSON.stringify(newLearnedWords));
   };
 
@@ -50,12 +68,12 @@ const Flashcards = ({ vocabulary }) => {
   };
 
   if (quizMode) {
-    if (currentWordIndex >= vocabulary.length) {
+    if (currentWordIndex >= wordsInQuiz) {
       return (
         <div>
           <div>Quiz complete!</div>
           <div>
-            You scored {score} out of {vocabulary.length}.
+            You scored {score} out of {wordsInQuiz}.
           </div>
           <button onClick={() => setQuizMode(false)}>Exit quiz</button>
         </div>
