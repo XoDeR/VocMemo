@@ -17,10 +17,24 @@ function WritingCard({ title, task, texts }) {
       {showText ? (
         <div>
           <h4>{title}</h4>
-          <div>{task.join(" ")}</div>
+          <div style={{ textAlign: "left" }}>
+            {task.map((line) => (
+              <span>
+                {line}
+                <br />
+              </span>
+            ))}
+          </div>
         </div>
       ) : (
-        <div>{texts[0].join(" ")}</div>
+        <div style={{ textAlign: "left" }}>
+          {texts[0].map((line) => (
+            <span>
+              {line}
+              <br />
+            </span>
+          ))}
+        </div>
       )}
     </div>
   );

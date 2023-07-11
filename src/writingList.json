@@ -14,7 +14,7 @@
         "De reden dat ik ga verhuizen is omdat ik een nieuwe baan heb gevonden in Amsterdam.",
         "Ik ben erg enthousiast over deze nieuwe kans en ik kijk ernaar uit om in deze mooie stad te wonen.",
         "Ik hoop dat je snel langs kunt komen om mijn nieuwe huis te zien.",
-        "Liefs, (Je naam)"
+        "Liefs, Walter."
       ],
       []
     ]
@@ -30,7 +30,22 @@
       "De school wil weten welke oplossing u hebt gevonden voor uw probleem.",
       "Schrijf aan de school welke oplossingen u hebt."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Beste leraar",
+        "Ik heb twee problemen: ik heb geen kinderopvang voor mijn dochter.",
+        "En de school is ver weg.",
+        "Maar ik heb een oplossing voor deze twee problemen.",
+        "Mijn vrouw gaat twee keer per week oppassen.",
+        "Zij gaat een beetje minder werken.",
+        "En ik kan met de bus naar school. Het duurt 20 minuten.",
+        "U ziet het: de problemen zijn opgelost.",
+        "Ik kom over twee weken naar school.",
+        "Tot ziens.",
+        "Walter."
+      ],
+      []
+    ]
   },
   {
     "title": "De familie",
@@ -42,7 +57,19 @@
       "Vraag haar of dat kan.",
       "Vraag haar ook of u speciale dingen moet meenemen."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Hoi Anja",
+        "Ik wil graag volgende week bij jou op bezoek komen.",
+        "Wat vind jij? Is dat goed?",
+        "Ik blijf twee nachten logeren, als dat kan. Ik kom op dinsdag.",
+        "Zal ik nog speciale dingen meenemen uit Nederland?",
+        "Laat gauw iets horen.",
+        "Tot volgende week,",
+        "Walter."
+      ],
+      []
+    ]
   },
   {
     "title": "De agenda",
@@ -54,6 +81,191 @@
       "U gaat een datum en een tijd noemen.",
       "Misschien gaat u met hem eten in een restaurant, of u gaat samen naar een terras.",
       "Of misschien gaat u samen wandelen."
+    ],
+    "texts": [
+      [
+        "Hoi Wim",
+        "Hoe gaat het met je?",
+        "We kunnen een afspraak maken.",
+        "Zullen we op zaterdagavond samen eten in een pizzeria?",
+        "Zullen we om 18 uur afspreken bij cafe Oranje?",
+        "Dan drinken we eerst een koffie.",
+        "Laat snel wat horen.",
+        "Tot gauw.",
+        "Walter."
+      ],
+      []
     ]
+  },
+  {
+    "title": "Het lichaam",
+    "task": [
+      "Uw vriendin vraagt uw hulp.",
+      "Zij kan niet goed lopen en zij zit in een rolstoel.",
+      "Zij vraagt aan u of u op zaterdag mee wil gaan om te shoppen.",
+      "Natuurlijk zegt u ja.",
+      "U moet schrijven van hoe laat tot hoe laat u kunt helpen.",
+      "Ook moet u schrijven hoe u gaat helpen.",
+      "U moet verder aan uw vriendin vragen wat zij wil gaan kopen",
+      "en naar welke winkels zij wil gaan."
+    ],
+    "texts": [
+      [
+        "Hoi Ingrid.",
+        "Natuurlijk ga ik met je mee op zaterdag.",
+        "Ik kan om 10 uur in de ochtend bij je komen.",
+        "Ik ga je de hele dag helpen.",
+        "Ik ga de rolstoel duwen, als het nodig is.",
+        "Ik kan veel dingen dragen en naar jouw huis brengen.",
+        "We kunnen zonder auto, want jij woont in de winkelstraat.",
+        "Wat wil je allemaal kopen?",
+        "Naar welke winkels wil je gaan? Wil je kleding kopen?",
+        "Het woordt heel gezellig.",
+        "Ik kom! Tot zaterdag."
+      ],
+      []
+    ]
+  },
+
+  {
+    "title": "De kleding",
+    "task": [
+      "U hebt nieuwe kleren gekocht bij een internetwinkel.",
+      "U bent heel blij met uw aankopen.",
+      "Alles staat u goed, en de kleding was niet duur.",
+      "U schrijft aan uw zus welke kleding u gekocht heeft.",
+      "En u vertelt haar bij welke winkel u de kleding hebt gekocht.",
+      "Ook adviseert u uw zus om bij dezelfde winkel te kopen."
+    ],
+    "texts": [
+      [
+        "Hoi Marleen",
+        "Hoe gaat het met je?",
+        "Ik heb mooie kleding gekocht op internet bij Zalando.",
+        "Ik ben heel blij. Het was allemaal goedkoop.",
+        "Ik heb twee truien en twee broeken gekocht.",
+        "Ik stuur je een foto mee van mij in mijn nieuwe kleren.",
+        "Je moet ook eens shoppen bij Zalando.",
+        "Ze hebben ook schoenen.",
+        "Dat is echt een winkel voor jou!",
+        "Ik zie je gauw.",
+        "Groetjes van je grote broer!"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De keuken",
+    "task": [
+      "U hebt een nieuwe en moderne keuken.",
+      "Uw vriend vraagt aan u welke bijzondere dingen u in uw keuken hebt.",
+      "U geeft een beschrijving van uw keuken."
+    ],
+    "texts": [
+      [
+        "Hoi Roy",
+        "Alles goed met jou? Met mij wel.",
+        "Ik heb een nieuwe keuken, ja.",
+        "Er is een moderne Quooker.",
+        "Ik heb nu kokend water uit de kraan. Superhandig.",
+        "De kookplaat is ook mooi. Ik kook nu elektrisch en ik kook niet meer op gas.",
+        "En er is een mooie grote koelkast.",
+        "I de koelkast staan lekkere gerechten op jou te wachten.",
+        "Kom maar gauw langs!",
+        "Tot ziens",
+        "Walter"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
+  },
+  {
+    "title": "Xxxx",
+    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "texts": [[], []]
   }
 ]
