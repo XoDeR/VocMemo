@@ -179,88 +179,414 @@
     ]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "title": "De boodschappen",
+    "task": [
+      "U hebt vandaag geen tijd om de dagelijkse boodschappen te doen.",
+      "U schrijft een e-mail naar uw partner.",
+      "U schrijft uw partner waarom u geen tijd hebt.",
+      "U schrijft in de mail welke dingen uw partner moet kopen."
+    ],
+    "texts": [
+      [
+        "Hoi lieverd",
+        "Sorry, het is heel druk op mijn werk.",
+        "Ik kan de boodschappen vandaag niet doen.",
+        "Kun jij alsjeblieft de boodschappen halen?",
+        "De aardappels zijn op. Koop jij aardappels of rijst?",
+        "Wil je ook limonade kopen? En brood voor morgen.",
+        "Er zijn nog bonen, tomaten en eieren.",
+        "Ik houd van je! Tot vanavond."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Groente en fruit",
+    "task": [
+      "U hebt een klacht over het groentepakket.",
+      "U hebt een abonnement voor een groot pakket.",
+      "Maar u hebt te weinig groente en fruit gekregen.",
+      "U bent niet zo blij.",
+      "U schrijft aan Het Groene Land een e-mail.",
+      "In de e-mail schrijft u hoe Het Groene Land dit probleem volgens u",
+      "kan oplossen."
+    ],
+    "texts": [
+      [
+        "Beste mensen van Groene Land",
+        "Vandaag is mijn groentepakket aan huis bezorgd.",
+        "Er is niet genoeg groente in het pakket.",
+        "Ik heb een abonnement voor een groot pakket.",
+        "Ik wil u vragen volgende week extra groente en fruit in het pakket te doen.",
+        "Dank u wel voor uw medewerking.",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Eten en drinken",
+    "task": [
+      "Een vriend van u nodigt u uit om te komen eten in zijn nieuwe woning.",
+      "Dat is gezellig.",
+      "Deze vriend vraagt aan u wat u het liefst eet.",
+      "U schrijft in deze e-mail aan uw vriend waar hij nu woont.",
+      "En u moet vragen op welke dag en hoe laat u bent uitgenodigd."
+    ],
+    "texts": [
+      [
+        "Hoi Rik",
+        "Dank je wel voor de uitnodiging.",
+        "Ik vind Spaans eten erg lekker, met vis bijvoorbeeld.",
+        "Ik kom hoor!",
+        "Maar waar is het?",
+        "Waar woon je nu? Wat is je adres?",
+        "Kan ik daar parkeren?",
+        "En op welke dag is de afspraak?",
+        "Hoe laat zal ik komen?",
+        "Tot ziens.",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Het weer",
+    "task": [
+      "Het is vandaag een mooie dag.",
+      "De zon schijnt en het is warm.",
+      "U schrijft een briefje aan uw broer.",
+      "Vraag uw broer wat hij vanavond gaat doen.",
+      "Schrijf ook wat u vanavond zelf gaat doen.",
+      "Schrijf ook met wie u iets wilt gaan doen op deze mooie zomeravond."
+    ],
+    "texts": [
+      [
+        "Hoi Broer!",
+        "Hoe is het met jou? alles oke?",
+        "Vanavond is het een mooie zomeravond.",
+        "Ik ga eerst fietsen met mijn buurman. Daarna gaan we samen in de tuin zitten.",
+        "Wat ga jij vanavond doen?",
+        "Ga je met ons mee?",
+        "Of kom je even in de tuin zitten?",
+        "Tot ziens.",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Het verkeer",
+    "task": [
+      "U gaat met uw auto naar uw zus in Amsterdam.",
+      "U gaat ook logeren bij uw zus.",
+      "U wilt daar twee dagen blijven.",
+      "In Amsterdam is een groot parkeerprobleem.",
+      "Schrijf aan uw zus wanneer u wilt komen.",
+      "Vraag ook aan uw zus een advies voor het parkeren van uw auto."
+    ],
+    "texts": [
+      [
+        "Hoi Marieke",
+        "Volgende week kom ik bij jou op bezoek in Amsterdam.",
+        "Ik blijf twee dagen bij jou.",
+        "Ik kom met de auto.",
+        "Er is een parkeer probleem in de stad.",
+        "Heb jij een goed advies voor mij?",
+        "Waar kan ik mijn auto het best parkeren?",
+        "Tot volgende week,",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De dieren",
+    "task": [
+      "De hond van uw buurman poept soms in uw tuin.",
+      "U vindt dat niet fijn.",
+      "U hebt tegen uw buurman gezegt, dat hij zijn hond op een andere plek",
+      "moet laten poepen.",
+      "Maar het probleem blijft.",
+      "Nu schrijft u een brief aan uw vriend Henk.",
+      "U vertelt Henk wat het probleem is.",
+      "U moet aan uw vriend ook schrijven welke oplossing u zelf heeft voor het probleem.",
+      "Maar u weet niet zeker of uw oplossing ook een goede oplossing is",
+      "Daarom vraagt u aan Henk wat hij van uw oplossing vindt."
+    ],
+    "texts": [
+      [
+        "Hoi Henk",
+        "Hoe is het? Met mij is het prima.",
+        "Ik schrijf je, want ik wil graag advies van jou.",
+        "Ik heb een probleem met mijn buurman.",
+        "De buurman heeft een hond en die hond poept in mijn tuin. Vies!",
+        "Ik heb met mijn buurman gesproken, maar het probleem blijft. Ik ben boos.",
+        "Ik wil naar de politie gaan.",
+        "Misschien kan de politie met mijn buurman praten.",
+        "Wat denk jij?",
+        "Is dat een goede oplossing?",
+        "Ik hoor graag jouw advies!",
+        "Groetjes van Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De tijd",
+    "task": [
+      "Uw broer wil een afspraak met u maken.",
+      "Hij wil samen met u naar een voetbalwedstrijd van Ajax kijken in de Amsterdam Arena.",
+      "U vindt dat heel leuk.",
+      "Maar u kunt niet op de datum die uw broer heeft genoemd.",
+      "U schrijf aan uw broer waarom u niet kunt op die dag.",
+      "U wilt met hem afspreken op een andere datum.",
+      "U schrijft hem wanneer, waar en hoe laat u hem dan kunt ontmoeten.",
+      "U weet dat Ajax twee weken daarna ook een wedstrijd speelt in de Amsterdam Arena",
+      "Na de wedstrijd wilt u met uw broer naar een restaurant gaan.",
+      "Tenslotte schrijft u hoe laat u dan thuis wilt zijn."
+    ],
+    "texts": [
+      [
+        "Hoi Broer",
+        "Dank je wel voor de uitnodiging.",
+        "Het lijkt me leuk om samen naar het stadion te gaan.",
+        "Maar ik kan niet op 31 maart.",
+        "Mijn vrouw is dan jarig. Daarom kan ik die dag niet weg.",
+        "Ik kan wel over precies twee weken.",
+        "Het is dan 14 april.",
+        "We kunnen elkaar ontmoeten bij de Amsterdam Arena op die dag om twee uur.",
+        "Na de wedstrijd kunnen we gaan eten in een restaurant.",
+        "Ik wil om 10 uur in de avond thuis zijn.",
+        "Zullen we dat doen?",
+        "Tot ziens,",
+        "Je grote broer!"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De sport",
+    "task": [
+      "U bent trainer van een voetbalteam.",
+      "Uw team moet volgende week een belangrijke wedstrijd spelen.",
+      "U wilt uw voetbalteam vertellen dat het heel belangrijk is om te winnen."
+    ],
+    "texts": [
+      [
+        "Hoi jongens!",
+        "Volgende week spelen we tegen Ajax",
+        "Dat is de belangrijkste wedstrijd van het jaar.",
+        "We moeten winnen. We kunnen winnen.",
+        "Jullie moeten deze week extra trainen.",
+        "Ajax wil kampioen worden, maar wij willen zelf kampioen worden.",
+        "Dat kan, maar dan moeten we echt winnen volgende week.",
+        "Daarom zeg ik jullie dit: veel trainen, vroeg naar bed en geen alcohol.",
+        "Ik reken op jullie!",
+        "Jullie coach en trainer,",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "Uitgaan",
+    "task": [
+      "U wilt een afspraak maken met een vriendin.",
+      "U kent haar al tien jaar. Maar u ziet haar niet vaak.",
+      "U gaat haar schrijven.",
+      "U doet een voorstel om samen uit te gaan."
+    ],
+    "texts": [
+      [
+        "Hoi Berna",
+        "Hoe is het met jou? Met mij is het goed.",
+        "Ik heb het altijd druk met mijn werk.",
+        "Dat is wel een beetje jammer.",
+        "Maar nu heb ik zin om uit te gaan.",
+        "Zullen we samen uitgaan?",
+        "Ik heb je al heel lang niet meer gezien.",
+        "We kunnen naar een restaurant gaan en daarna naar een leuk cafe.",
+        "We gaan heel veel kletsen, natuurlijk!",
+        "Oke? Goed idee?",
+        "W."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De vakantie",
+    "task": [
+      "U gaat op vakantie.",
+      "U hebt een kat. Uw kat gaat niet met u mee op vakantie.",
+      "U schrijft een e-mail aan uw buurvrouw.",
+      "In deze e-mail vraagt u haar of zij op uw huis wil passen tijdens uw vakantie.",
+      "U vraagt ook an uw buurvrouw of zij de kat wil verzorgen.",
+      "U moet uw buurvrouw vertellen wat de kat moet drinken.",
+      "En u schrijft haar waar zij het eten voor de kat kan vinden.",
+      "U vertelt aan uw buurvrouw wanneer u vertrekt en ook wanneer u terugkomt."
+    ],
+    "texts": [
+      [
+        "Hoi Tessa",
+        "Ik ga morgen op vakantie.",
+        "Dat weet je al.",
+        "Mijn kat blijft thuis.",
+        "Wil je mijn kat verzorgen? Ik hoop het.",
+        "Je hebt mijn huissleutel.",
+        "Mijn kat moet elke dag eten hebben en water drinken.",
+        "Het eten voor de kat staat in de grote kast in de keuken.",
+        "Mijn kat mag geen melk. Alleen water.",
+        "Alles voor de kat staat in de grote keukenkast.",
+        "Ik ben twee weken weg.",
+        "Dankjewel.",
+        "Tot ziens,",
+        "Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De natuur",
+    "task": [
+      "Uw vriend woont in de provincie Groningen.",
+      "Hij wil verhuizen naar een grote stad in het westen van Nederland.",
+      "U woont in Rotterdam. Uw vriend heeft aan u advies gevraagd.",
+      "U schrijft deze e-mail aan uw vriend.",
+      "U vraagt hem waarom hij wil verhuizen.",
+      "Vertel hem ook twee nadelen van het wonen in een grote stad in het westen van Nederland."
+    ],
+    "texts": [
+      [
+        "Beste Ruben",
+        "Hoe gaat het met jou?",
+        "Waarom wil je verhuizen?",
+        "In Groningen is de natuur prachtig. Overal is ruimte.",
+        "Bij ons in het westen van Nederland is weinig natuur.",
+        "Er zijn alleen maar huizen en wegen.",
+        "De huizen zijn hier heel duur en iedereen staat altijd met de auto in de file.",
+        "Ik wil zelf graag in Groningen wonen.",
+        "Zullen we onze woning ruilen?",
+        "Groetjes van Walter."
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De Nederlandse cultuur",
+    "task": [
+      "U hebt op de televisie een programma gezien over Sinterklaas en Zwarte Piet.",
+      "U hebt kinderen.",
+      "Op de basisschool van uw kinderen komt Sinterklaas dit jaar niet.",
+      "U schrijft een e-mail aan de directeur van de basisschool van uw kinderen.",
+      "In de e-mail vraagt u aan de directeur van de school waarom Sinterklaas niet komt.",
+      "U schrijft ook aan de directeur wat u zelf vindt van dit Nederlandse feest."
+    ],
+    "texts": [
+      [
+        "Beste directeur",
+        "Dit jaar wil de school geen Sinterklaasfeest organiseren voor onze kinderen.",
+        "Ik vind dat niet leuk",
+        "Mijn kinderen vinden dat ook niet leuk.",
+        "Waarom komt Sinterklaas niet naar school?",
+        "Sinterklaas geeft iedereen cadeautjes en hij is een aardige man.",
+        "Kinderen houden van cadeautjes en kinderen houden van aardige mensen.",
+        "Sinterklaas is een belangrijk feest in Nederland.",
+        "En iedereen houdt van feestjes.",
+        "Jorge Rodrigues",
+        "Vader van Antonio en Maria"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De politiek",
+    "task": [
+      "U hebt uw inburgeringsexamen gedaan, maar u bent niet geslaagd.",
+      "U hebt een vraag voor de minister-president over het inburgeringsexamen.",
+      "U schrijft een e-mail met deze vraag.",
+      "U schrijft de minister-president ook waarom u deze vraag hebt.",
+      "U schrijft aan de minister-president voor welk onderdeel van het examen u gezakt bent.",
+      "U schrijft ook wanneer u het examen hebt gedaan."
+    ],
+    "texts": [
+      [
+        "Geachte minister-president",
+        "Ik heb vier weken geleden het inburgeringsexamen gedaan.",
+        "Ik heb vandaag het resultaat ontvangen.",
+        "Ik ben gezakt voor het onderdeel schrijfvaardigheid.",
+        "Waarom ben ik niet geslaagd?",
+        "Ik begrijp dat niet goed.",
+        "Ik schrijf perfect. Ook deze e-mail kan ik zonder fouten schrijven.",
+        "Kunnen mijn docent en ik een antwoord krijgen op mijn vraag?",
+        "Dank u wel,",
+        "Juan Rodrigues"
+      ],
+      []
+    ]
+  },
+  {
+    "title": "De computer",
+    "task": [
+      "U hebt een nieuwe computer gekocht bij Media Markt.",
+      "De computer wordt bij u aan huis gebracht.",
+      "Maar de computer is niet goed.",
+      "U bent boos, want u moet vandaag met deze computer werken en dat kan niet.",
+      "U schrijft een boze e-mail aan Media Markt.",
+      "In de e-mail schrijft u wat het probleem is.",
+      "U schrijft ook wat Media Markt volgens u moet doen."
+    ],
     "texts": [[], []]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "title": "Een woning zoeken",
+    "task": [
+      "U woont in een flat.",
+      "U huurt een appartement in deze flat.",
+      "In de flat en bij de flat zijn door de eigenaar camera's geplaatst.",
+      "De eigenaar van de flat wil graag weten wat in en bij de flat gebeurt.",
+      "U schrijft een e-mail aan de eigenaar van de flat.",
+      "In de e-mail vraagt u de eigenaar waarom hij dit gedaan heeft.",
+      "U schrijft de eigenaar wat u vindt van deze camera's.",
+      "Tenslotte moet u schrijven waarom u de camera's wel of niet een goed idee vindt."
+    ],
     "texts": [[], []]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "title": "Het onderwijs",
+    "task": [
+      "U wilt een opleiding gaan volgen voor taxichauffeur.",
+      "U hebt een instituut gevonden dat mensen opleidt tot taxichauffeur.",
+      "Nu gaat u een e-mail sturen, want u wilt meer informatie.",
+      "U hebt drie vragen over deze cursus.",
+      "U schrijft deze drie vragen in uw e-mail.",
+      "U vertelt ook waarom u graag taxichauffeur wilt worden."
+    ],
     "texts": [[], []]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "title": "Beroep en werk",
+    "task": [
+      "U hebt een vacature voor pakketbezorger (chauffeur) gezien.",
+      "De vacature past bij uw gewenste beroep.",
+      "Uw gewenste beroep is chauffeur-pakketbezorger.",
+      "U gaat dan werken via uitzendbureau Indeed.",
+      "Het uitzendbureau Indeed heeft werk voor chauffeurs of bezorgers bij Albert Heijn.",
+      "U schrijft een sollicitatiebrief aan het uitzendbureau Indeed"
+    ],
     "texts": [[], []]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
-  },
-  {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
+    "title": "De economie",
+    "task": [
+      "U hebt een brief gekregen van uw bank.",
+      "Uw bank gaat aan u geen rente meer geven over uw spaargeld.",
+      "U hebt 100.000 euro gespaard, maar u wilt ook rente over uw spaargeld.",
+      "U bent niet tevreden over uw bank.",
+      "U schrijft in deze mail wie u bent en hoe lang u al klant bent geweest bij deze bank.",
+      "Yyyy",
+      "Yyyy"
+    ],
     "texts": [[], []]
   },
   {
