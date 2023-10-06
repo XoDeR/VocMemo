@@ -2,7 +2,7 @@
   {
     "title": "Het huis",
     "task": [
-      "U gaat verhuizen. Schrijf een e-mail naar uw moeder",
+      "U gaat verhuizen.",
       "Schrijf een e-mail naar uw moeder.",
       "U schrijft haar naar welke stad u gaat verhuizen en wanneer u gaat verhuizen.",
       "Schrijf ook waaroom u gaat verhuizen."
@@ -536,7 +536,20 @@
       "In de e-mail schrijft u wat het probleem is.",
       "U schrijft ook wat Media Markt volgens u moet doen."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Beste Media Markt",
+        "Vandaag heb ik mijn computer gekregen.",
+        "De computer is kapot. Het scherm is kapot.",
+        "Ik moet vandaag werken met mijn nieuwe computer, maar dat kan nu niet.",
+        "Ik ben heel boos.",
+        "Ik wil vandaag een andere computer van u hebben.",
+        "Ik kom de nieuwe computer vanmiddag bij u ophalen in de winkel.",
+        "Met vriendelijke groet",
+        "Marc Boos"
+      ],
+      []
+    ]
   },
   {
     "title": "Een woning zoeken",
@@ -550,7 +563,20 @@
       "U schrijft de eigenaar wat u vindt van deze camera's.",
       "Tenslotte moet u schrijven waarom u de camera's wel of niet een goed idee vindt."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Beste eigenaar",
+        "U hebt camera's bij en in onze flat geplaatst.",
+        "Waarom hebt u dat gedaan?",
+        "Ik vind de camera's een goed idee.",
+        "De camera's geven informatie over alle personen die in en bij onze flat komen.",
+        "De camera's verbeteren de veiligheid in en bij onze flat.",
+        "Dank u wel voor de camera's.",
+        "Met vriendelijke groeten",
+        "Peter Onderzicht"
+      ],
+      []
+    ]
   },
   {
     "title": "Het onderwijs",
@@ -562,7 +588,22 @@
       "U schrijft deze drie vragen in uw e-mail.",
       "U vertelt ook waarom u graag taxichauffeur wilt worden."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Geachte heer/mevrouw",
+        "Ik wil graag meer informatie over de opleiding tot taxichauffeur.",
+        "Ik wil graag taxichauffeur worden, want ik vind autorijden leuk.",
+        "Ik heb veel ervaring als chauffeur.",
+        "Ik heb een paar vragen over de opleiding.",
+        "Op welk adres is deze opleiding?",
+        "Hoe lang duurt deze opleiding?",
+        "Wat kost deze opleiding?",
+        "In afwachting van uw antwoord.",
+        "Met vriendelijke groeten,",
+        "John Wayne."
+      ],
+      []
+    ]
   },
   {
     "title": "Beroep en werk",
@@ -574,7 +615,25 @@
       "Het uitzendbureau Indeed heeft werk voor chauffeurs of bezorgers bij Albert Heijn.",
       "U schrijft een sollicitatiebrief aan het uitzendbureau Indeed"
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Geachte heer/mevrouw",
+        "Hierbij laat ik u weten dat ik interesse heb in de vacature",
+        "voor bezorger van pakketten of boodschappen.",
+        "U heeft een vacature voor dat werk bij Albert Heijn",
+        "Ik heb veel ervaring als chauffeur.",
+        "Ik heb veel ervaring met dit werk.",
+        "Ik heb nog nooit een ernstig ongeluk gehad.",
+        "Ik weet veel van auto's",
+        "Ik wil heel graag werken als chauffeur voor Albert Heijn",
+        "Ik vind AH een mooi bedrijf.",
+        "Ik woon in Amsterdam en ik zoek werk dichtbij mijn woonplats.",
+        "Ik licht mijn solicitatie graag toe in een persoonlijk gesprek.",
+        "Met vriendelijke groeten,",
+        "Wim Appledoorn"
+      ],
+      []
+    ]
   },
   {
     "title": "De economie",
@@ -584,14 +643,51 @@
       "U hebt 100.000 euro gespaard, maar u wilt ook rente over uw spaargeld.",
       "U bent niet tevreden over uw bank.",
       "U schrijft in deze mail wie u bent en hoe lang u al klant bent geweest bij deze bank.",
-      "Yyyy",
-      "Yyyy"
+      "U schrijft ook wat de bank volgens u moet doen.",
+      "Schrijf ook uw bank dat uw geld bij een andere bank gaat brengen.",
+      "Schrijf de bank waarom u het geld bij die andere bank gaat brengen."
     ],
-    "texts": [[], []]
+    "texts": [
+      [
+        "Geachte heer/mevrouw,",
+        "Mijn naam is Martijn op de Cent en ik heb al tien jaar mijn geld bij de Rabo.",
+        "Ik heb elk jaar geld gespaard.",
+        "De Rabo heeft nu 100.000 euro van mij. Dat is veel geld.",
+        "Nu geeft de Rabo mij geen rente meer over mijn spaargeld.",
+        "Ik ben niet tevreden.",
+        "Volgens mij moet een bank, ook de Rabo, rente geven over het spaargeld.",
+        "U hebt mijn geld, dus ik wil graag dat mijn bank mij rente geeft.",
+        "Ik ga mijn geld bij een andere bank brengen, want andere banken geven wel rente.",
+        "U hoort snel meer van mij.",
+        "Met vriendelijke groet,",
+        "Martijn op de Cent"
+      ],
+      []
+    ]
   },
   {
-    "title": "Xxxx",
-    "task": ["Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy", "Yyyy"],
-    "texts": [[], []]
+    "title": "De gezondheid",
+    "task": [
+      "U hebt een operatie gehad aan uw knie.",
+      "U bent heel blij, want de operatie is goed gelukt.",
+      "U schrijft een e-mail aan de chirurg.",
+      "U wilt deze dokter bedanken.",
+      "Voor de operatie kon u veel dingen niet goed doen.",
+      "U schrijft in de e-mail wat u eerst niet zo goed kon doen en wat u nu wel weer kunt doen."
+    ],
+    "texts": [
+      [
+        "Beste dokter",
+        "Ik schrijf u deze e-mail, want ik wil u bedanken.",
+        "U hebt mij twee maanden geleden geopereerd aan mijn knie.",
+        "Ik kon niet goed meer lopen en springen, maar nu kan ik dat wel.",
+        "Ik loop weer heel goed.",
+        "Ik sport veel, ik kan alles weer doen.",
+        "En dat na twee maanden.",
+        "U bent een heel goede chirurg.",
+        "Walter Brown"
+      ],
+      []
+    ]
   }
 ]
